@@ -1,6 +1,6 @@
 ---
 applications:
 - buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  host: eLocalShoppeWeb-wwc
-  name: eLocalShoppeWeb-wwc
+  host: eLocalShoppieWeb-wwc
+  name: eLocalShoppieWeb-wwc
   memory: 64M
