@@ -1,7 +1,5 @@
 ---
 applications:
 - buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  host: eLocalShoppeWeb-wwc
   name: eLocalShoppeWeb-wwc
   memory: 64M
-  stack: cflinuxfs2
