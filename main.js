@@ -3025,7 +3025,7 @@ class OtpVerificationComponent {
     onSubmit() {
         this.submitted = true;
         this.httpService.verifyOtp(this.f.otpv, this.f.otpv).subscribe(data => {
-            this.toastr.success("ypu have successfully registered");
+            this.toastr.success("you have successfully registered");
             this.router.navigate(['/login']);
         }, error => {
             this.toastr.error("please Enter valid OTP");
